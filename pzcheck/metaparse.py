@@ -21,7 +21,7 @@ Syntax:
                                 - complex conjugate pairs
                                 - negative real part
     <netsta>  : network and station, e.g. 'GR.BFO', the station part accepts
-                wildcards (use with parantheses)
+                wildcards (use with quotes)
     <server>  : server to access, default is default server for network
 
 Examples:
@@ -41,10 +41,14 @@ else:
 from lxml import etree
 import numpy as np
 from scipy import signal
+try:
+    import SzoConfig
+except:
+    pass
 import MetadataWebRequest
 
 
-normdevtolerance = 2.0  # in percent
+normdevtolerance = 2.05  # in percent
 
 #-------------------------------------------------------------------------------
 
