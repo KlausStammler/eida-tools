@@ -3,12 +3,12 @@
 
 Usage:
 
-      metaparse.py *cmd* *station*
+      metaparse.py cmd station
 
 
-: *cmd*
+*cmd*
 
-command to be executed:
+: command to be executed:
 - `c` or `compact`: compact print of metadata set
 - `e` or `extended`: extended output of metadat set
 - `p` or `plain`: plain dump of python structures
@@ -16,9 +16,9 @@ command to be executed:
 - `n` or `normcheck`: formal check of normalization and poles&zeros
 
 
-: *station*
+*station*
 
-Station specifier like `GR.BFO`. For Station code `*` als wild card is allowed, e.g. `GR.*`, but quotes are needed on the ocmmand line.
+: Station specifier like `GR.BFO`. For Station code `*` as wild card is allowed, e.g. `GR.*`, but quotes are needed on the command line.
 
 
 Examples:
