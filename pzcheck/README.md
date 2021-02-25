@@ -8,7 +8,7 @@ Usage:
 
 *cmd*
 
-: command to be executed:
+:    command to be executed:
 - `c` or `compact`: compact print of metadata set
 - `e` or `extended`: extended output of metadat set
 - `p` or `plain`: plain dump of python structures
@@ -18,7 +18,7 @@ Usage:
 
 *station*
 
-: Station specifier like `GR.BFO`. For Station code `*` as wild card is allowed, e.g. `GR.*`, but quotes are needed on the command line.
+:    Station specifier like `GR.BFO`. For Station code `*` as wild card is allowed, e.g. `GR.*`, but quotes are needed on the command line.
 
 
 Examples:
